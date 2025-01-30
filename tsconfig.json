@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "rootDir": "./src",
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
@@ -28,7 +27,4 @@
       ]
     }
   },
-  "include": [
-    "src/**/*.ts"
-  ]
 }
