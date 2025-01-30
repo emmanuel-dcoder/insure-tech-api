@@ -29,7 +29,7 @@
 ## Project Documentation
 
 ```bash
-# documentation link
+# swagger documentation link
 $ https://insure-tech-api.onrender.com/docs
 ```
 
@@ -57,12 +57,6 @@ $ npm run start:prod
 ```bash
 # unit tests
 $ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## Resources
