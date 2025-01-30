@@ -1,8 +1,9 @@
 import { Controller, Get, HttpStatus, Param } from '@nestjs/common';
-import { ApiResponse } from '@nestjs/swagger';
+import { ApiResponse, ApiTags } from '@nestjs/swagger';
 import { successResponse } from 'src/config/response';
 import { PendingPolicyService } from './pending-policy.service';
 
+@ApiTags('Pending Policies')
 @Controller('pending-policies')
 export class PendingPolicyController {
   constructor(private readonly pendingPolicy: PendingPolicyService) {}

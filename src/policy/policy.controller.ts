@@ -1,9 +1,10 @@
 import { Controller, Get, Post, Body, HttpStatus, Param } from '@nestjs/common';
 import { CreateProductDto } from './dto/policy.dto';
-import { ApiResponse } from '@nestjs/swagger';
+import { ApiResponse, ApiTags } from '@nestjs/swagger';
 import { successResponse } from 'src/config/response';
 import { PolicyService } from './policy.service';
 
+@ApiTags('Policies')
 @Controller('product')
 export class PolicyController {
   constructor(private readonly policyService: PolicyService) {}
