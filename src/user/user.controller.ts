@@ -42,7 +42,6 @@ export class UserController {
   @ApiResponse({ status: 404, description: 'Unable to fetch user not found' })
   async getAllUsers() {
     const data = await this.usersService.getAllUsers();
-
     return successResponse({
       message:
         data.length !== 0 ? `User retrieved successfully` : `User not found`,
