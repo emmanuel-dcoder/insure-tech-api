@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "rootDir": "./src",
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
@@ -8,7 +9,7 @@
     "allowSyntheticDefaultImports": true,
     "target": "ES2021",
     "sourceMap": true,
-    "outDir": "./dist",
+    "outDir": "./dist/src",
     "baseUrl": "./",
     "incremental": true,
     "forceConsistentCasingInFileNames": true,
@@ -26,5 +27,8 @@
         "src/product-category/*"
       ]
     }
-  }
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
 }
