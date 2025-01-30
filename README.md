@@ -30,7 +30,7 @@
 
 ```bash
 # documentation link
-$ https://insure-tech-api.onrender.com/
+$ https://insure-tech-api.onrender.com/docs
 ```
 
 ## Project setup
