@@ -5,7 +5,7 @@ import { CreateProductCategoryDto } from './dto/create-product-category.dto';
 import { successResponse } from '../config/response';
 
 @ApiTags('Product Categories')
-@Controller('categories')
+@Controller('api/v1/categories')
 export class ProductCategoryController {
   constructor(private readonly categoryService: ProductCategoryService) {}
 

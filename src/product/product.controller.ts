@@ -5,7 +5,7 @@ import { ApiBody, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { successResponse } from '../config/response';
 
 @ApiTags('Products')
-@Controller('product')
+@Controller('api/v1/product')
 export class ProductController {
   constructor(private readonly productService: ProductService) {}
 

@@ -5,7 +5,7 @@ import { successResponse } from 'src/config/response';
 import { PolicyService } from './policy.service';
 
 @ApiTags('Policies')
-@Controller('product')
+@Controller('api/v1/product')
 export class PolicyController {
   constructor(private readonly policyService: PolicyService) {}
 

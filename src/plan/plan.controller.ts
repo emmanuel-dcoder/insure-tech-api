@@ -5,7 +5,7 @@ import { PlanService } from './plan.service';
 import { PlanDto } from './dto/plan.dto';
 
 @ApiTags('Plan')
-@Controller('plan')
+@Controller('api/v1/plan')
 export class PlanController {
   constructor(private readonly planService: PlanService) {}
 
